@@ -98,6 +98,30 @@
 
   <!--END SHOWCASE SLIDER-->
 
+  <!-- HOME ICON SECTİON -->
+  <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cog fa-3x mb-2"></i>
+          <h3>Turning Gears</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nulla!</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-cloud fa-3x mb-2"></i>
+          <h3>Sending Data</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nulla!</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-plus fa-3x mb-2"></i>
+          <h3>Making Money Gears</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nulla!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HOME ICON SECTİON -->
+
 </body>
 
 </html>
@@ -105,5 +129,13 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script>
+  // Copyright Current Year
   $('#year').text(new Date().getUTCFullYear());
+
+
+  $(".carousel").carousel({
+    interval: 6000,
+    pause: 'hover',
+
+  })
 </script>
