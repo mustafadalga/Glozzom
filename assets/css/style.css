@@ -1,6 +1,14 @@
 body{
   overflow-x: hidden;
 }
+html,
+body {
+  height: 100%;
+}
+.all-content {
+  min-height: 100%;
+}
+
 .navbar .nav-link{
   font-size:14px;
   text-transform: uppercase;
@@ -55,4 +63,14 @@ body{
 }
 #video-play a{
   color: #fff;
+}
+
+#page-header{
+  height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
 }
